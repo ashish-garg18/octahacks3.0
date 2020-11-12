@@ -14,6 +14,6 @@ body{
     background-color: aliceblue;
 }
 
-p {
+.card-title p {
     font-size: 1.5em;
 }
