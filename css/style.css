@@ -17,3 +17,7 @@ body{
 .card-title p {
     font-size: 1.5em;
 }
+
+.inline {
+    display: inline;
+}
