@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Register</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar-expand-lg fixed-top navbar navbar-light bg-primary my_nav mb-5">
+        <a class="navbar-brand" href="doctor.html">MedRec</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Details </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown link
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar -->
+    
+    <!-- body content -->
+    <section class="newreport mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 mr-auto ml-auto">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>Add Patient Details</h3> 
+                            </div>
+                            <form action="#">
+                                <form>
+                                    <label for="patientid" class="mt-3">Pateint ID</label>
+                                    <input type="text" class="form-control form-control-sm mb-3" placeholder="Pateint ID">
+                                    <label for="date" class="mt-3">Date &amp; Time </label>
+                                    <input type="datetime-local" class="form-control form-control-sm mb-3" placeholder="Pateint ID">
+                                    <label for="report" class="mt-3">Report</label> <br>
+                                    <textarea name="report" id="report" class="form-control" rows="6" placeholder="Report"></textarea>
+                                    <label for="medication" class="mt-3">Medication</label>
+                                    <textarea name="medicines" rows="3" class="form-control" placeholder="Medication"></textarea>
+                                    <label for="documents" class="mt-3">Documents</label> <br>
+                                    <input type="file" id="file" class="mb-3">
+                                    <input type="submit" class="btn btn-block btn-success">
+                                </form>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- body content -->
+
+    <!-- footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8">
+                    <h3>MedRec</h3>
+                    <p>India's first digital Medical Record Keeper.</p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4>Contact Us </h4>
+                    <p><Strong>Email : </Strong> MedRec@gmail.com</p>
+                    <p><strong>Call us : </strong> +91 123456</p>
+                    <h4>About Us </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus veritatis, sunt rerum velit eaque earum ex</p>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="copy text-center">
+                    <p><small>Copyright &copy; 2020. All Rights Reserved</small></p>
+                </div>
+            </div>
+        </div>
+    </footer>   
+    <!-- footer -->
+    
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
